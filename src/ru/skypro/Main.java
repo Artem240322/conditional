@@ -46,7 +46,7 @@ public class Main {
 
 
         // Задача 5
-        int monthNumber = 12;
+        int monthNumber = 13;
         switch (monthNumber) {
             case 12:
                 System.out.println("Зима");
