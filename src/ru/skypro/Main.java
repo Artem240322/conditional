@@ -34,32 +34,33 @@ public class Main {
         // Задача 4
         int deliveryDistances = 17;
         int deliveryDays = 1;
-        if (deliveryDistances <=20) {
+        if (deliveryDistances <= 20) {
             System.out.println("доставка займет " + deliveryDays);
-        } else if (deliveryDistances >20 && deliveryDistances <60) {
+        } else if (deliveryDistances > 20 && deliveryDistances < 60) {
             System.out.println("доставка займет " + (deliveryDays + 1));
-        } else if (deliveryDistances >60 && deliveryDistances <100) {
-            System.out.println("доставка займет " + (deliveryDays +2));
+        } else if (deliveryDistances > 60 && deliveryDistances < 100) {
+            System.out.println("доставка займет " + (deliveryDays + 2));
         } else {
             System.out.println("на такое расстояние не ездят");
         }
-    }
-         // Задача 5
-         int monthNumber = 12;
 
-         switch (monthNumber) {
-             case 12:
-                 System.out.println("Зима");
-                 break;
-             case 1:
-                 System.out.println("Зима");
-                 break;
-             case 2:
-                 System.out.println("Зима");
-                 break;
-             default:
-                 System.out.println("Такого месяца не существует");
+
+        // Задача 5
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 12:
+                System.out.println("Зима");
+                break;
+            case 1:
+                System.out.println("Зима");
+                break;
+            case 2:
+                System.out.println("Зима");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
         }
     }
+}
 
 
