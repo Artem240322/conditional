@@ -19,12 +19,22 @@ public class Main {
         int Android = 1;
         if (clientAnd == 1)
             System.out.println("Установите версию приложения для Android по ссылке ");
-        int clientDeviceYearOs = 2014;
-        if (clientDeviceYearOs >= 2015) {
-            System.out.println("Установить ПО по ссылке ");
-        } else if (clientDeviceYearOs < 2015) {
-            System.out.println("Установить облегченную версию ПО ");
+        int clientDeviceYearAnd = 2014;
+        if (clientAnd == 1 && clientDeviceYearAnd <= 2014) {
+            System.out.println("Установить облегченную версижю для Android ");
+        } else if {
+            (clientAnd == 1 || clientDeviceYearAnd) {
+                System.out.println("Установка обычной версии ");
+            }
+            int clientDeviceYearOs = 2014;
+            if (clientDeviceYearOs >= 2015) {
+                System.out.println("Установить ПО по ссылке ");
+            } else if (clientDeviceYearOs < 2015) {
+                System.out.println("Установить облегченную версию ПО ");
+            }
         }
+
+
 
 
         // Задача 3
