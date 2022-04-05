@@ -49,14 +49,24 @@ public class Main {
         int monthNumber = 13;
         switch (monthNumber) {
             case 12:
-                System.out.println("Зима");
-                break;
             case 1:
-                System.out.println("Зима");
-                break;
             case 2:
                 System.out.println("Зима");
                 break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Зима");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
             default:
                 System.out.println("Такого месяца не существует");
         }
